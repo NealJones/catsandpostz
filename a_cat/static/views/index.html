@@ -23,10 +23,27 @@
 <br>
 
 <!-- the onCatClick and onPostClick have been switched allowing user to click the winner -->
-<div ng-show="image" id="cat_side"><img id="cats" ng-click="onPostClick()" src="{{ media_url }}{{ image.image }}"></div> <br>
-<div class="post_side"><img id="fb_display_picture" src="{{ picture }}"><p id="fb_display_name">{{ name }}</p><br><p ng-click="onCatClick()">{{ post }}</p>{{ name }}</div>
-<!-- <div id="post_side"><p id="fb_display_name" {{ name }}<img src="{{ picture }}"><p ng-click="onCatClick()">{{ post }}</p>{{ name }}</div> -->
-<!--<div id="post_side"><p ng-click="onCatClick()">{{ post }}</p><img src="{{ picture }}"></div> << This is getting the pic, just out of order -->
+<div id="wrapper">
+    <div id="col_1">
+        <div ng-show="image" id="cat_side"><img id="cats" ng-click="onPostClick()" src="{{ media_url }}{{ image.image }}"></div>
+    </div>
+
+    <div id="col_2">
+        <h4 id="battlezone">BATTLEZONE</h4><br>
+        <h6 id="fight_text">Click the Champion!</h6>
+        <img id="torch" src="a_cat/media/cats/Torch-06-june.gif"></div>
+    </div>
+
+    <div id="col_3">
+        <div ng-click="onCatClick()" class="post_side">
+            <img id="fb_display_picture" src="{{ picture }}">
+            <p id="fb_display_name">{{ name }}</p>
+            <br>
+            <p id="fb_post">{{ post }}</p>
+        </div>
+    </div>
+</div>
+<!-- <div class="post_side"><img id="fb_display_picture" src="{{ picture }}"><p id="fb_display_name">{{ name }}</p><br><p ng-click="onCatClick()">{{ post }}</p>{{ name }}</div> -->
 
 <!--<div ng-show="post" id="post_side"><ng-click="fbPostToDisplay()" src="">
 
