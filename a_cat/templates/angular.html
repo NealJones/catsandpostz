@@ -37,28 +37,28 @@
         }(document, 'script', 'facebook-jssdk'));
     </script>
 
-<div class="nav">
-    <ul>                           <!--< < Nav Bar Beginnings...-->
-        <li id="fb_login"><a href="#/facebook/"><div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true"></div></a></li>
-<!--        <li><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div></li> -->
-        <li id="cats_vs_posts"><a href="/"<h4>Cats VS Posts</h4></li>
-        <li id="about"><a href="#/blog">About/Blog</a></li>
-    </ul>
-</div>
-
-<br>
-
+    <!-- >> Nav Bar << -->
+    <div class="nav">
+        <ul>
+            <li id="fb_login"><a href="#/facebook/"><div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true"></div></a></li>
+            <!-- >> Facebook 'Like' button <<
+                <li><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div></li> -->
+            <li id="cats_vs_posts"><a href="/"<h4>Cats VS Posts</h4></li>
+            <li id="about"><a href="#/blog">About/Blog</a></li>
+        </ul>
+    </div>
+    <br>
+    <!-- >> END Nav Bar << -->
     <div ng-app="a_cat">
         <div ng-view></div>
     </div>
 
-<!--< < Bottom Nav Bar--><!--
+    <!-- >> Bottom Nav Bar << --><!--
 <div class="bottom_nav">
     <ul>
         <li id="bottom_disclaimer"><h6>Calm down, this site isn't that serious...</h6></li>
     </ul>
 </div> -->
-
 
 </body>
 </html>

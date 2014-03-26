@@ -24,7 +24,7 @@
 
 <!-- the onCatClick and onPostClick have been switched allowing user to click the winner -->
 <div ng-show="image" id="cat_side"><img id="cats" ng-click="onPostClick()" src="{{ media_url }}{{ image.image }}"></div> <br>
-<div id="post_side"><p ng-click="onCatClick()">{{ post }}</p></div>
+<div id="post_side"><p ng-click="onCatClick()">{{ post }}</p><img src="{{ picture }}">{{ name }}</div>
 
 <!--<div ng-show="post" id="post_side"><ng-click="fbPostToDisplay()" src="">
 

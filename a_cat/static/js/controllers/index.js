@@ -26,32 +26,15 @@ function IndexController($scope, $http) {
         success(function(fbPostToDisplay){
             console.log(fbPostToDisplay)
             $scope.post = fbPostToDisplay.friend_posts.story;
+            $scope.picture = fbPostToDisplay.picture;
+            $scope.name = fbPostToDisplay.name;
             console.log(fbPostToDisplay.friend_posts.story);
         });
     }
 
     postRandomTransformation();
 
-// -------get function to call /fbpost/
-//    function fbPostToDisplay(){
-//        $http.get('/api/v1/image/?format=json').
-//
-//    }
 
 }
 
-// "you're not REMOVING the cat, you're CHANGING the cat." - AngularJS, two-way binding
-// Backburner Issues:
-//      - Need to next enter a score into the database
-
-
-
-
-//Facebook:
-//    - Two routes:
-//        1. Make an api call to server, since it knows the user, get their fb info on the server,
-//              uses a python library and gets a post, and returns to angular to display
-// Make an api call to server
-
-
-//        2. Second way is to just use Angular to call to fb, and your Angular code would have access to everything and just shows a post.
+//Connect to database
