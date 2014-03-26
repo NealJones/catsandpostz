@@ -1,3 +1,4 @@
+    /*-----------------CSS Styling---------------*/
 *{
     margin: 0;
     padding: 0;
@@ -8,23 +9,21 @@ body {
     background-color: #ffffff;
 }
 
-
+    /*--------------Cat Image Styling------------*/
 #cat_side {
     float: left;
     width: 50%;
 }
 
 #cats {
-    /*height: 300px;*/
     height: 350px;
-    /*width: 300px;*/  #ffffff
     width: 350px;
     border-radius: 10px;
     padding: 10%;
 }
 
 
-    /*FACEBOOK POSTS*/
+    /* --------------FB Post Styling-------------*/
 #post_side {
     float: right;
     width: 400px;
@@ -42,44 +41,52 @@ body {
     float: right;
 }
 
-
-
-    /*NAV BAR*/
-.nav {
+.bottom_nav {
     position: fixed;
+    bottom: -6px;
 	width: 100%;
 	margin: 0 0 0 0;
 	padding: 0;
 	background-color: #3B5998;
 	border-bottom: 0px solid #ccc;
+/*Adds shadow to bottom of bar*/
+    -webkit-box-shadow: 8px 0px 0px 0px #000000;
+    -moz-box-shadow: 8px 0px 0px 0px #000000;
+    box-shadow: 0px 0px 8px 0px #000000;
+}
 
-    /*Adds shadow to bottom of bar*/
+
+    /* -----------Begin NavBar Styling-----------*/
+.nav {
+    position: fixed;
+    top: 0;
+	width: 100%;
+	margin: 0 0 0 0;
+	padding: 0;
+	background-color: #3B5998;
+	border-bottom: 0px solid #ccc;
+/*Adds shadow to bottom of bar*/
     -webkit-box-shadow: 0px 0px 8px 0px #000000;
     -moz-box-shadow: 0px 0px 8px 0px #000000;
     box-shadow: 0px 0px 8px 0px #000000;
 }
 
-
 .nav ul {
-	list-style: none;
-	width: 100%;
-	margin: 0 auto;
-	padding: 0;
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .nav li {
-	float: left;
-	display: block;
-	padding: 8px 25px; /* first # sets height of nav bar */
-	text-decoration: none;
-	/*font-weight: bold;*/
-	color: #069;
-    color: white;
-
+    float: left;
+    display: block;
+    padding: 9px 25px; /* first # sets height of nav bar */
+    text-decoration: none;
 }
 
 #fb_login {
-    /*float: left;*/
+    float: left;
 }
 
 .nav li a {
@@ -89,15 +96,20 @@ body {
 }
 
 .nav li a:hover {
-	color: #c00;
-	background-color: #fff;
+    /*color: goldenrod;*/
+    color: black;
 }
-
 
 #cats_vs_posts {
     /*padding-left: 20%;*/
-    padding-left: 35%;
+    padding-left: 36%;
     padding-right: 35%;
 
     font-weight: bolder;
 }
+
+#about {
+    float: right;
+}
+
+    /* -------------------END NavBar------------------*/

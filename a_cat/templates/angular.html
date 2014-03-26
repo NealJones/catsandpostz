@@ -10,9 +10,6 @@
     <script type="text/javascript" src={% static 'js/vendor/angular.js' %}></script>
     <script type="text/javascript" src={% static 'js/vendor/angular-route.js' %}></script>
     <script type="text/javascript" src={% static 'js/vendor/angular-resource.js' %}></script>
-{#    <script src="{% get_static_prefix %}js/vendor/angular.js"></script>#}
-{#    <script src="{% get_static_prefix %}js/vendor/angular-route.js"></script>#}
-{#    <script src="{% get_static_prefix %}js/vendor/angular-resource.js"></script>#}
 
     <!-- JavaScript Files -->
     <script type="text/javascript" src="{% static 'js/app.js' %}"></script>
@@ -55,8 +52,13 @@
         <div ng-view></div>
     </div>
 
+<!--< < Bottom Nav Bar--><!--
+<div class="bottom_nav">
+    <ul>
+        <li id="bottom_disclaimer"><h6>Calm down, this site isn't that serious...</h6></li>
+    </ul>
+</div> -->
 
 
-<!--    <h6>also every page..</h6>  -->
 </body>
 </html>
