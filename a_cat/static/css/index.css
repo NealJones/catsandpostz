@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+
+#cat_side {
+    float: left;
+    width: 50%;
+}
+
+#cats {
+    /*height: 300px;*/
+    height: 350px;
+    /*width: 300px;*/  #ffffff
+    width: 350px;
+    border-radius: 10px;
+    padding: 10%;
+}
+
+
+    /*FACEBOOK POSTS*/
+#post_side {
+    float: right;
+    width: 400px;
+    padding-top: 40px;
+    padding-right: 55px;
+}
+
+#posts {
+    /*height: 300px;*/
+    height: 50%;
+    /*width: 300px;*/
+    width: 50%;
+    border-radius: 10px;
+    padding: 10%;
+    float: right;
+}
+
+
+
+    /*NAV BAR*/
+.nav {
+    position: fixed;
+	width: 100%;
+	margin: 0 0 0 0;
+	padding: 0;
+	background-color: #3B5998;
+	border-bottom: 0px solid #ccc;
+
+    /*Adds shadow to bottom of bar*/
+    -webkit-box-shadow: 0px 0px 8px 0px #000000;
+    -moz-box-shadow: 0px 0px 8px 0px #000000;
+    box-shadow: 0px 0px 8px 0px #000000;
+}
+
+
+.nav ul {
+	list-style: none;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.nav li {
+	float: left;
+	display: block;
+	padding: 8px 25px; /* first # sets height of nav bar */
+	text-decoration: none;
+	/*font-weight: bold;*/
+	color: #069;
+    color: white;
+
+}
+
+#fb_login {
+    /*float: left;*/
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.nav li a:hover {
+	color: #c00;
+	background-color: #fff;
+}
+
+
+#cats_vs_posts {
+    /*padding-left: 20%;*/
+    padding-left: 35%;
+    padding-right: 35%;
+
+    font-weight: bolder;
+}

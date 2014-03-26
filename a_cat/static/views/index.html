@@ -1,0 +1,35 @@
+
+<!-- Get the feeling that I'm repeating myself in Angular.html on fb login crap -->
+<div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1398205403780400',
+          status     : true,
+          xfbml      : true
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/all.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+<br>
+<br>
+
+<!-- the onCatClick and onPostClick have been switched allowing user to click the winner -->
+<div ng-show="image" id="cat_side"><img id="cats" ng-click="onPostClick()" src="{{ media_url }}{{ image.image }}"></div> <br>
+<div id="post_side"><p ng-click="onCatClick()">{{ post }}</p></div>
+
+<!--<div ng-show="post" id="post_side"><ng-click="fbPostToDisplay()" src="">
+
+    <a href="/login/facebook/">Login with the Facebook</a><br>
+    <a href="#/fbfriends">
+        Go to fb friend selection page
+    </a>
+-->
