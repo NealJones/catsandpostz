@@ -18,29 +18,12 @@ def angular(request):
     return render(request, "angular.html")
 
 
-# Supposed to get the fb post...not sure about the details
-
-# def get_fb_post(request):
-#     user_id = UserSocialAuth.objects.get(user=request.user)
-#     # you have to do a series of requests to get down to the target
-#     resp = requests.get("https://graph.facebook.com/{0}?fields=friends&access_token={1}".format(user_id.uid, user_id.tokens))
-#     friend = resp.json()['friends']['data'][0]
-#     print friend
-#     friend_id = friend['id']
-#     print friend_id
-#     resp = requests.get("https://graph.facebook.com/{0}?fields=feed&access_token={1}".format(friend_id, user_id.tokens))
-#     data = {'friend_posts': resp.json()}
-#
-#     return HttpResponse(json.dumps(data), mimetype='application/json')
 
 #----------------- THOUGHTS ------------------
 #   Can this actually get to the news feed?
 #   Do I need to use FQL for this?
 #   I think this is the solution:
 #         http://stackoverflow.com/questions/5795637/find-a-photo-for-each-of-10-random-facebook-friends-in-fql
-
-# Notes:
-#
 
 # ------------------ WORKING CODE AS OF SAT MAR 22 @ 11:28:33 ---------------------------
 # <>
