@@ -6,9 +6,10 @@ function IndexController($scope, $http) {
             catRandomTransformation();
         });
 
-    $scope.onCatClick = function(element) {
+    $scope.onCatClick = function(element) { // TODO connect this to DB
         console.log("STOP CLICKING THE DUMB CAT");
         catRandomTransformation();
+        postRandomTransformation(); //this is here so both the cat and the post refresh. Logic: so people don't just click the post to see more cats
     };
 
     function catRandomTransformation(){
@@ -19,6 +20,7 @@ function IndexController($scope, $http) {
     $scope.onPostClick = function(element) {
         console.log("STOP CLICKING THE DUMB POST");
         postRandomTransformation();
+        catRandomTransformation(); //this is here so both the cat and the post refresh. Logic: so people don't just click the post to see more cats
     };
 
     function postRandomTransformation(){

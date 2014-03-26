@@ -32,6 +32,7 @@ def get_fb_post(request):
         friend_id = friend['id']  # sets random friend equal to variable
         resp = requests.get("https://graph.facebook.com/{0}/posts/?access_token={1}&limit=100".format(friend_id, settings.FACEBOOK_APP_TOKEN))
         posts = resp.json()
+        
         if len(posts) > 0:  # friend_posts.from.name
             for post in posts['data']:
                 if 'status_type' in post and post['status_type'] == 'wall_post':
