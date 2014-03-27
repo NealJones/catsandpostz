@@ -22,17 +22,17 @@
     <favorites_list name="catvspost" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.74318326">
+    <splitter split-orientation="horizontal" split-proportion="0.33275414">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.9">
+        <splitter split-orientation="vertical" split-proportion="0.8914286">
           <split-first>
-            <splitter split-orientation="vertical" split-proportion="0.21892188">
+            <splitter split-orientation="vertical" split-proportion="0.15718158">
               <split-first>
                 <leaf>
                   <file leaf-file-name="blog.html" pinned="false" current="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/a_cat/static/views/blog.html">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state line="11" column="6" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+                        <state line="8" column="0" selection-start="595" selection-end="595" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
                           <folding />
                         </state>
                       </provider>
@@ -47,19 +47,19 @@
                       </provider>
                     </entry>
                   </file>
-                  <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+                  <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/catvspost/urls.py">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state line="28" column="0" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="615">
+                        <state line="28" column="0" selection-start="983" selection-end="983" vertical-scroll-proportion="5.413793" vertical-offset="203" max-vertical-offset="555">
                           <folding />
                         </state>
                       </provider>
                     </entry>
                   </file>
-                  <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="true">
+                  <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/a_cat/static/css/index.css">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state line="114" column="23" selection-start="2013" selection-end="2013" vertical-scroll-proportion="-0.23622048" vertical-offset="1740" max-vertical-offset="3075">
+                        <state line="190" column="20" selection-start="3103" selection-end="3103" vertical-scroll-proportion="0.0" vertical-offset="2365" max-vertical-offset="3075">
                           <folding />
                         </state>
                       </provider>
@@ -69,10 +69,10 @@
               </split-first>
               <split-second>
                 <leaf>
-                  <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+                  <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/a_cat/static/js/controllers/index.js">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state line="16" column="4" selection-start="698" selection-end="698" vertical-scroll-proportion="0.6286837" vertical-offset="0" max-vertical-offset="860">
+                        <state line="1" column="36" selection-start="78" selection-end="78" vertical-scroll-proportion="0.04347826" vertical-offset="0" max-vertical-offset="860">
                           <folding />
                         </state>
                       </provider>
@@ -96,7 +96,7 @@
               <file leaf-file-name="blog.html" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/a_cat/static/views/blog.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="7" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="7.142857" vertical-offset="55" max-vertical-offset="255">
+                    <state line="7" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="46.5" vertical-offset="12" max-vertical-offset="210">
                       <folding />
                     </state>
                   </provider>
@@ -107,26 +107,26 @@
         </splitter>
       </split-first>
       <split-second>
-        <splitter split-orientation="vertical" split-proportion="0.40680102">
+        <splitter split-orientation="vertical" split-proportion="0.56188923">
           <split-first>
             <leaf>
               <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/a_cat/static/js/controllers/index.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="35" column="31" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="645">
+                    <state line="35" column="31" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="645">
                       <folding>
-                        <marker date="1395887336000" expanded="true" signature="251:566" placeholder="..." />
+                        <marker date="1395951287000" expanded="true" signature="304:619" placeholder="..." />
                       </folding>
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/a_cat/static/views/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="50" column="0" selection-start="1497" selection-end="1497" vertical-scroll-proportion="1.5897436" vertical-offset="378" max-vertical-offset="915">
+                    <state line="34" column="10" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.58598727" vertical-offset="326" max-vertical-offset="780">
                       <folding>
-                        <marker date="1395883995000" expanded="true" signature="85:640" placeholder="..." />
+                        <marker date="1395950869000" expanded="true" signature="85:640" placeholder="..." />
                       </folding>
                     </state>
                   </provider>
@@ -145,7 +145,7 @@
             <splitter split-orientation="vertical" split-proportion="0.7966616">
               <split-first>
                 <leaf>
-                  <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+                  <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/a_cat/models.py">
                       <provider selected="true" editor-type-id="text-editor">
                         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
@@ -156,10 +156,10 @@
                       </provider>
                     </entry>
                   </file>
-                  <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="true">
+                  <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/a_cat/views.py">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state line="49" column="0" selection-start="1747" selection-end="1942" vertical-scroll-proportion="2.4243422" vertical-offset="275" max-vertical-offset="1276">
+                        <state line="49" column="0" selection-start="1747" selection-end="1942" vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="1276">
                           <folding />
                         </state>
                       </provider>
@@ -190,7 +190,7 @@
                   <file leaf-file-name="angular.html" pinned="false" current="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/a_cat/templates/angular.html">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state line="58" column="75" selection-start="2413" selection-end="2413" vertical-scroll-proportion="9.545455" vertical-offset="660" max-vertical-offset="1035">
+                        <state line="58" column="75" selection-start="2413" selection-end="2413" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1035">
                           <folding />
                         </state>
                       </provider>
@@ -242,21 +242,19 @@
         <option value="$PROJECT_DIR$/a_cat/static/js/app.js" />
         <option value="$PROJECT_DIR$/catvspost/urls.py" />
         <option value="$PROJECT_DIR$/catvspost/settings.py" />
-        <option value="$PROJECT_DIR$/a_cat/static/views/blog.html" />
         <option value="$PROJECT_DIR$/a_cat/static/css/blog.css" />
         <option value="$PROJECT_DIR$/a_cat/templates/angular.html" />
-        <option value="$PROJECT_DIR$/a_cat/static/css/index.css" />
-        <option value="$PROJECT_DIR$/a_cat/static/views/index.html" />
         <option value="$PROJECT_DIR$/a_cat/views.py" />
+        <option value="$PROJECT_DIR$/a_cat/static/css/index.css" />
+        <option value="$PROJECT_DIR$/a_cat/static/views/blog.html" />
+        <option value="$PROJECT_DIR$/a_cat/static/views/index.html" />
         <option value="$PROJECT_DIR$/a_cat/static/js/controllers/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1920" />
-    <option name="y" value="-575" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -484,6 +482,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="extra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catvspost" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catvspost" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a_cat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cats" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -536,11 +556,11 @@
       <recent name="$PROJECT_DIR$/a_cat/static/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/a_cat/media/extra" />
       <recent name="$PROJECT_DIR$/a_cat/media/cats" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/a_cat/static/images/cats" />
       <recent name="$PROJECT_DIR$/a_cat/static/images" />
-      <recent name="$PROJECT_DIR$/a_cat/static" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.catvspost">
@@ -798,19 +818,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-575" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13564357" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08677686" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15335463" sideWeight="0.52068967" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16027689" sideWeight="0.47931033" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13066465" sideWeight="0.47931033" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4019802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21386139" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.028653296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -852,7 +872,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="42" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="795">
           <folding>
-            <marker date="1395883995000" expanded="true" signature="85:640" placeholder="..." />
+            <marker date="1395950869000" expanded="true" signature="85:640" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -867,7 +887,9 @@
     <entry file="file://$PROJECT_DIR$/a_cat/static/js/controllers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="32" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="465">
-          <folding />
+          <folding>
+            <marker date="1395951287000" expanded="true" signature="304:619" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,13 +1079,6 @@
         <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catvspost/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="738">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/a_cat/static/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="1" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
@@ -1071,7 +1086,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a_cat/media/cats/Torch-06-june.gif">
+    <entry file="file://$PROJECT_DIR$/a_cat/media/extra/Torch-06-june.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1104,7 +1119,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a_cat/templates/angular.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="75" selection-start="2413" selection-end="2413" vertical-scroll-proportion="9.545455" vertical-offset="660" max-vertical-offset="1035">
+        <state line="58" column="75" selection-start="2413" selection-end="2413" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a_cat/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1747" selection-end="1942" vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="1276">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a_cat/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="190" column="20" selection-start="3103" selection-end="3103" vertical-scroll-proportion="0.0" vertical-offset="2365" max-vertical-offset="3075">
           <folding />
         </state>
       </provider>
@@ -1118,40 +1147,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a_cat/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="23" selection-start="2013" selection-end="2013" vertical-scroll-proportion="-0.23622048" vertical-offset="1740" max-vertical-offset="3075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a_cat/static/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1497" selection-end="1497" vertical-scroll-proportion="1.5897436" vertical-offset="378" max-vertical-offset="915">
-          <folding>
-            <marker date="1395883995000" expanded="true" signature="85:640" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a_cat/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1747" selection-end="1942" vertical-scroll-proportion="2.4243422" vertical-offset="275" max-vertical-offset="1276">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/a_cat/static/views/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+        <state line="8" column="0" selection-start="595" selection-end="595" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catvspost/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="983" selection-end="983" vertical-scroll-proportion="5.413793" vertical-offset="203" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/a_cat/static/js/controllers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="698" selection-end="698" vertical-scroll-proportion="0.6286837" vertical-offset="0" max-vertical-offset="860">
-          <folding />
+        <state line="35" column="31" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="645">
+          <folding>
+            <marker date="1395951287000" expanded="true" signature="304:619" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a_cat/static/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="10" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.58598727" vertical-offset="326" max-vertical-offset="780">
+          <folding>
+            <marker date="1395950869000" expanded="true" signature="85:640" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

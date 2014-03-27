@@ -1,5 +1,5 @@
 function IndexController($scope, $http) {
-    $http.get('/api/v1/image/?format=json').
+    $http.get('/api/v1/image/?format=json&limit=100'). // by default tastypie restricts you to 20
         success(function(images){
 //            console.log(images);
             $scope.images = images.objects;
@@ -14,7 +14,7 @@ function IndexController($scope, $http) {
 
     function catRandomTransformation(){
         $scope.image = $scope.images[Math.floor(Math.random() * $scope.images.length)];
-    };
+    }
 
     $scope.onPostClick = function(element) {
         console.log("STOP CLICKING THE DUMB POST");

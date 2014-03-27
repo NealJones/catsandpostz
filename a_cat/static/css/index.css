@@ -44,8 +44,8 @@ body {
 }
 
 #cats {
-    height: 450px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
     padding-top: 27%;
 }
 
@@ -188,7 +188,7 @@ div.post_side {
 
 
 #cats_vs_posts {
-    padding-left: 39.7%;
+    padding-left: 36%;
     font-weight: bolder;
 }
 
