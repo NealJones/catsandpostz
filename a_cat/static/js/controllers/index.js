@@ -14,8 +14,7 @@ function IndexController($scope, $http) {
 
     function catRandomTransformation(){
         $scope.image = $scope.images[Math.floor(Math.random() * $scope.images.length)];
-
-    }
+    };
 
     $scope.onPostClick = function(element) {
         console.log("STOP CLICKING THE DUMB POST");
@@ -36,7 +35,4 @@ function IndexController($scope, $http) {
 
     postRandomTransformation();
 
-
 }
-
-//Connect to database

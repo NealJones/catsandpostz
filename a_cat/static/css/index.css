@@ -22,19 +22,19 @@ body {
 #col_1 {
     float: left;
     margin: 0;
-    width: 33%;
+    width: 40%;
 }
 
 #col_2 {
     float: left;
     margin: 0;
-    width: 33%;
+    width: 20%;
 }
 
 #col_3 {
     float: left;
     margin: 0;
-    width: 33%;
+    width: 40%;
 }
 
     /*--------------Cat Image Styling------------*/
@@ -80,6 +80,7 @@ body {
     /* --------------FB Post Styling-------------*/
 #post_side {
     padding-top: 5%;
+    padding-right: 20%;
 }
 
 
@@ -111,6 +112,7 @@ div.post_side {
     text-align: left;
     width: 400px;
     padding-top: 13%;
+    padding-right: 20%;
     word-wrap: break-word;
 }
 
