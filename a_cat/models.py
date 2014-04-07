@@ -2,9 +2,14 @@ from django.contrib.auth.models import User
 from django.db import models
 
 
+
+
 class Image(models.Model):           #  connected with FK from Cat_Off
     image = models.ImageField(upload_to="cats") # this designates where you upload - it can be anywhere
     image_name = models.TextField()
+
+    def __unicode__(self):
+        return u"{0}".format(self.image) # forgot to change the self.TITLE to self.IMAGE
 
 
 class Post(models.Model):            #  connected with FK from Cat_Off
