@@ -2,9 +2,12 @@ import json, requests, random
 from django.conf import settings
 from django.http import HttpResponse
 from django.shortcuts import render
-import requests
 from social.apps.django_app.default.models import UserSocialAuth
 # import random
+import urllib
+from facebook import *
+import json
+import facebook  # pip install facebook-sdk
 
 
 def home(request):
@@ -23,15 +26,57 @@ def angular(request):
 
 def get_fb_post(request):
 
-    s = requests.Session()
-    s.params = {'access_token': settings.FACEBOOK_APP_TOKEN} # so you don't have to specify it every time
-    print(s.params)
-    query = ('{"user_sex":"SELECT sex FROM user WHERE uid=me()",'
-             '"friends":"SELECT uid, name FROM user WHERE uid IN '
-             '(SELECT uid2 FROM friend WHERE uid1 = me()) '
-             'AND not (sex in (SELECT sex FROM #user_sex)) '
-             ' ORDER BY name"}')
-    s.get('https://graph.facebook.com/fql', params={'q': query})
+    posts_query = "SELECT created_time, post_id, actor_id, type, updated_time, attachment FROM stream WHERE post_id in (select post_id from stream where ('video') in attachment AND source_id IN ( SELECT uid2 FROM friend WHERE uid1=me()) limit 100)"
+    users_query = "SELECT uid, first_name FROM user WHERE uid IN (SELECT actor_id FROM (#posts_query))"
+
+    token = "1398205403780400|yqw-zBkUg18kyJbtTWhn0_pLjX8"
+    queries = {'posts_query': posts_query, 'users_query': users_query}
+    fql_var = "https://api.facebook.com/method/fql.query?access_token=" + token + "&q=" + json.dumps(queries_json) + "&format=json"
+    data = urllib.urlopen(fql_var)
+    fb_stream = json.loads(data.read())
+    print(fb_stream)
+
+    # #TODO 4th attempt, spiraled into an incoherent mess
+    # # access_token = "1398205403780400|yqw-zBkUg18kyJbtTWhn0_pLjX8"
+    # # query = {
+    # #     "friends": "SELECT uid, name, sex FROM user WHERE uid IN (SELECT uid2 FROM friend WHERE uid1 = me()) AND not (sex in (select sex from #user_sex))  ORDER BY name"
+    # #         }
+    #
+    # # graph = facebook.GraphAPI(access_token)
+    #
+    # graph = facebook.GraphAPI()
+    # # print "Mashable has %s fans" % graph.get_object('/mashable')['fan_count']
+    # print(graph.get_object('/mashable')['fan_count'])
+    # # return graph.fql(str(query))
+
+
+    #TODO COPIED EXAMPLE
+    # query = "SELECT uid2 FROM friend WHERE uid1 = me()"
+    # params = urllib.urlencode({'q': query, 'access_token': "1398205403780400|yqw-zBkUg18kyJbtTWhn0_pLjX8"})
+    # print params
+    #
+    # url = "https://graph.facebook.com/fql?" + params
+    # print(url)
+    # data = urllib.urlopen(url).read()
+    # print(data)
+
+    # TODO second fql attempt
+    # s = requests.Session()
+    # s.params = {'access_token': settings.FACEBOOK_APP_TOKEN} # so you don't have to specify it every time
+    # print(s.params)
+    # query = "SELECT uid2 FROM friend WHERE uid1 = me()"
+    # resp = requests.get("https://graph.facebook.com/fql?q={0}&access_token={1}".format(query, settings.FACEBOOK_APP_TOKEN))  # user_id.tokens
+    # print(resp)
+
+    # url = "https://graph.facebook.com/fql?q=" + query + "access_token=1398205403780400|yqw-zBkUg18kyJbtTWhn0_pLjX8"
+    # info = requests.get(url)
+    # s.get('https://graph.facebook.com/fql', params={'q': query})
+    # print(s.get)
+    # print(url)
+    # print(info)
+    # data = json.loads
+    #
+    # return data
 
     #TODO first fql attemp
     # # user_id = UserSocialAuth.objects.get(user=request.user)
